@@ -1,2 +1,110 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+  --bg-color: hsl(218, 23%, 16%);
+  --card-color:hsl(217, 19%, 24%);
+  --font-color: hsl(0, 0%, 100%);
+  --accent-color: hsl(150, 100%, 66%); 
+  --border-radius: 0.8rem;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+body{
+  display: grid;
+  grid-template-rows: 1fr auto;
+  font-family: 'Manrope', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.advice{
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--card-color);
+  border-radius: var(--border-radius);
+  margin: 2rem;
+  max-width: 35rem;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.advice__line{
+  margin-bottom: 2rem;
+}
+
+.advice__footer{
+  background-color: var(--accent-color);
+  padding: 0.9rem;
+  border-radius: 50%;
+  position: absolute; 
+  bottom: -1rem;
+  z-index: 1;
+}
+
+
+.text{
+  text-align: center;
+  margin: 0.7rem;;
+}
+
+.text--quote{
+  font-size: 1.75rem;
+}
+
+.text--accent-color{
+  color: var(--accent-color);
+}
+
+.text--small{
+  font-size: 0.6875rem;
+}
+
+.button{
+  display: flex;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.button:active{
+  transform: rotate(180deg);
+}
+
+.button__icon{
+  width: 1.3rem;
+}
+
+@media (hover:hover){
+  .advice__footer:hover{
+     box-shadow: 0 0 1rem var(--accent-color);
+  }
+}
+
+.attribution{
+  text-align: center;
+}
