@@ -20,7 +20,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [frontendmentor.io/solutions/advice-generator-app-solution-using-vanilla-javascript-IYnKtIamX7](https://www.frontendmentor.io/solutions/advice-generator-app-solution-using-vanilla-javascript-IYnKtIamX7)
-- Live Site URL: [manny-munoz.github.io/Product-Preview-Card-Frontend-Mentor-Challenge](https://manny-munoz.github.io/Product-Preview-Card-Frontend-Mentor-Challenge/)
+- Live Site URL: [manny-munoz.github.io/Advice-generator-app-Frontend-Mentor-Challenge](https://manny-munoz.github.io/Advice-generator-app-Frontend-Mentor-Challenge/)
 
 ## My process
 
